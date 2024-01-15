@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Website</title>
+</head>
+<body>
+<script>
+    const password = prompt("Enter the password:");
+
+    if (password !== "you") {
+        alert("Incorrect password. Access denied.");
+        window.location.href = "https://www.google.com"; // Redirect to another site (optional)
+    }
+</script>
+<!-- Your private content goes here -->
+<h1>Welcome to the private area!</h1>
+
+</body>
+</html>
